@@ -13,7 +13,9 @@
 .widget-container-full, .widget-container-half {
     width: 95vw;
 }
-
+canvas{
+    max-width: 100%;
+}
 /*     header     */
 header {
     grid-area: header;
