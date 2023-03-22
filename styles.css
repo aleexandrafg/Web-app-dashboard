@@ -219,6 +219,9 @@ a:link {
     padding: 10px;
     font-size: 12px;
 }
+span{
+    display: none;
+}
 
 /*     messages     */
 
@@ -398,9 +401,17 @@ input:checked::after {
         display: flex;
         text-align: left;
     }
+    span{
+        display: unset;
+        position: absolute;
+        right: 1.5em;
+        align-self: center;
+        color: #7477bf;
+    }
     .member-text{
         padding-left: 10px;
         align-self: center;
+        color: #7477bf;
     }
     .number{
         position: absolute;
